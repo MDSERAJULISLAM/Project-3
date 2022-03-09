@@ -1,0 +1,636 @@
+ /* @media (min-width: 1400px){} (extra large)
+@media (min-width: 1200px) and (max-width: 1399.98px) {} (extra large)
+@media (min-width: 992px) and (max-width: 1199.98px) {}(large)
+@media (min-width: 768px) and (max-width: 991.98px) {}(medium)
+@media (min-width: 576px) and (max-width: 767.98px) {} (small)
+@media (max-width: 575.98px) {}(extrra- small) */
+
+@media (max-width: 575.99px) {
+    /* ====================MENU PART=============== */
+#main_menu .navbar-toggler{
+    font-size: 25px;
+    color: white;
+    vertical-align: middle;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    #main_menu .navbar-collapse {
+        background-color: gray;
+        margin-top: 10px;
+    }
+    #main_menu .navbar-nav .nav-link {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    #main_menu .svg-inline--fa {
+        vertical-align: middle;
+    }
+    #main_menu .navbar-toggler-icon {  
+        height: 1.3em;
+    }
+#main_menu .collapsed{
+    color: white !important;
+    }
+ #main_menu ul li a::after {
+        height: 1px;
+    }
+    #main_menu ul li a:hover::after {
+        width: 50%;
+    }
+    #main_menu {
+        margin-top: 24px;
+    }
+    #main_menu .logo_bg img {
+        width: 70%;
+       padding-left: 40px;
+    }
+    #main_menu .logo_bg::after {
+        width: 140px;
+        height: 55px;
+    }
+/* ===============MENU PART END=============== */
+/* ===============banner part start=============== */
+#banner_part .banner {	
+	padding-top: 200px;
+	padding-bottom: 100px;
+}
+#banner_part .banner p {
+	width: 100%;
+}
+#banner_part .banner a {
+	padding: 7px 8px;
+	margin-right: 10px;
+	font-size: 13px;
+}
+#banner_part .banner h2::before {
+	display: none;
+}
+#banner_part .banner h2::after {
+	display: none;
+}
+#banner_part .banner p::before {
+	display: none;
+}
+#banner_part .banner p::after {
+	display: none;
+}
+#banner_part .banner .spc::after {
+	display: none;
+}
+#banner_part .banner .spc::before {
+	display: none;
+}
+#banner_part .banner h1 {
+	font-size: 40px;
+    padding-top: 0;
+    padding-bottom: 20px
+}
+#banner_part .banner h2 {
+	font-size: 20px;
+    padding-top: 0;
+}
+#banner_part .slick-dots li button {
+	width: 15px;
+	height: 15px;
+	margin: 5px;
+}
+#banner_part .slick-dots .slick-active button::after{
+    width: 20px;
+    height: 20px;
+}
+/* ===============banner part end=============== */
+/* ==================about part start============== */
+#about_part {
+	padding-top: 40px;
+}
+#about_part p{
+	text-align: justify;
+}
+/* ==================about part start==============  */
+/* ===============team part start=============== */
+#team_part .header img {
+	padding-bottom: 50px;
+}
+#team_part .row .item p {
+	padding-top: 150px !important;
+	opacity: 1 !important;
+    padding-bottom: 10px;
+}
+#team_part .row .item .img {
+	top: -20px;
+}
+#team_part .row .item .text h3{
+    margin-bottom: 125px;
+}
+#team_part .row .item .text h2 {
+	padding-top: 0px;
+}
+#team_part .futter h3 {
+	padding-top: 0;
+}
+#team_part .header h3 {
+	padding-top: 25px;
+}
+/* ===============team part end=============== */
+/* ===============counterup part start=============== */
+#counter_part{
+    padding: 20px 0;
+}
+#counter_part .row .item .counter {
+	font-size: 28px;
+}
+#counter_part .row .item p{
+	font-size: 7px;
+}
+/* ===============counterup part start=============== */
+/* ===============clas part start=============== */
+#classes {
+	padding: 50px 0;
+}
+#classes .details ul li {
+	width: 46.5%;
+}
+#classes .details ul li {
+	padding: 15px 0;
+}
+#classes .class_btn ul li {
+	width: 33.3%;
+	background-color: #f1f1f1;
+}
+#classes .class_btn ul li button {
+	font-size: 12px;
+}
+/* ===============class part end=============== */
+/* ===============membership part start=============== */
+#partnership {
+	padding-bottom: 19px;
+}
+#partnership{
+    overflow: hidden;
+}
+/* ===============membership part end=============== */
+/* ====================testimonial==========start===== */
+#testimonial {
+	margin: 0;
+}
+#testimonial p {
+	padding-top: 20px;
+}
+#testimonial h3{
+    font-size: 20px !important;
+}
+#testimonial h4{
+    font-size: 18px;
+}
+/* ====================testimonial==========end===== */
+/* ===============contact part start=============== */
+#contact_part .item .element p {
+	width: 100%;
+}
+#contact_part .sdc {
+	padding-left: 2px !important;
+}
+#contact_part .item .img{
+    padding-left: none;
+}
+#contact_part .item .img img {
+	padding-left: 4px;
+	padding-top: 4px;
+}
+/* ===============contact part end=============== */
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+ /* ====================MENU PART=============== */
+#main_menu .navbar-toggler{
+    font-size: 25px;
+    color: white;
+    vertical-align: middle;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    #main_menu .navbar-collapse {
+        background-color: gray;
+        margin-top: 10px;
+    }
+    #main_menu .navbar-nav .nav-link {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    #main_menu .svg-inline--fa {
+        vertical-align: middle;
+    }
+    #main_menu .navbar-toggler-icon {  
+        height: 1.3em;
+    }
+#main_menu .collapsed{
+    color: white !important;
+    }
+ #main_menu ul li a::after {
+        height: 1px;
+    }
+    #main_menu ul li a:hover::after {
+        width: 50%;
+    }
+    #main_menu {
+        margin-top: 24px;
+    }
+    #main_menu .logo_bg img {
+        width: 70%;
+       padding-left: 40px;
+    }
+    #main_menu .logo_bg::after {
+        width: 140px;
+        height: 55px;
+    }
+/* ===============MENU PART END=============== */
+/* ===============banner part start=============== */
+#banner_part .banner {	
+	padding-top: 200px;
+	padding-bottom: 100px;
+}
+#banner_part .banner p {
+	width: 100%;
+}
+#banner_part .banner a {
+	padding: 7px 8px;
+	margin-right: 10px;
+	font-size: 13px;
+}
+#banner_part .banner h2::before {
+	display: none;
+}
+#banner_part .banner h2::after {
+	display: none;
+}
+#banner_part .banner p::before {
+	display: none;
+}
+#banner_part .banner p::after {
+	display: none;
+}
+#banner_part .banner .spc::after {
+	display: none;
+}
+#banner_part .banner .bpc::before {
+	display: none;
+}
+#banner_part .banner h1 {
+	font-size: 40px;
+    padding-top: 0;
+    padding-bottom: 20px
+}
+#banner_part .banner h2 {
+	font-size: 20px;
+    padding-top: 0;
+}
+#banner_part .slick-dots li button {
+	width: 15px;
+	height: 15px;
+	margin: 5px;
+}
+#banner_part .slick-dots .slick-active button::after{
+    width: 20px;
+    height: 20px;
+}
+/* ===============banner part end=============== */
+/* ==================about part start============== */
+#about_part {
+	padding-top: 40px;
+}
+#about_part p{
+	text-align: justify;
+}
+/* ==================about part start==============  */
+/* ===============team part start=============== */
+#team_part .header img {
+	padding-bottom: 50px;
+}
+#team_part .row .item p {
+	padding-top: 150px !important;
+	opacity: 1 !important;
+    padding-bottom: 10px;
+}
+#team_part .row .item .text p {
+	font-size: 15px;
+}
+#team_part .row .item .img {
+	top: -20px;
+}
+#team_part .row .item .text h3{
+    margin-bottom: 125px;
+}
+#team_part .row .item .text h2 {
+	padding-top: 0px;
+}
+#team_part .futter h3 {
+	padding-top: 0;
+}
+#team_part .header h3 {
+	padding-top: 25px;
+}
+/* ===============team part end=============== */
+/* ===============counterup part start=============== */
+#counter_part{
+    padding: 20px 0;
+}
+#counter_part .row .item .counter {
+	font-size: 28px;
+}
+#counter_part .row .item p {
+	font-size: 15px;
+}
+/* ===============counterup part start=============== */
+/* ===============clas part start=============== */
+#classes {
+	padding: 50px 0;
+}
+#classes .details ul li {
+	width: 46.5%;
+}
+#classes .details ul li {
+	padding: 15px 0;
+}
+#classes .class_btn ul li {
+	width: 33.336%;
+	background-color: #f1f1f1;
+}
+#classes .class_btn ul li button {
+	font-size: 12px;
+}
+/* ===============class part end=============== */
+/* ===============membership part start=============== */
+#partnership {
+	padding-bottom: 19px;
+}
+#partnership .svg-inline--fa {
+	display: none;
+}
+#partnership button{
+    display: none;
+}
+/* ===============membership part end=============== */
+/* ====================testimonial==========start===== */
+#testimonial {
+	margin: 0;
+}
+#testimonial p {
+	padding-top: 10px;
+	text-align: justify;
+}
+/* ====================testimonial==========end===== */
+/* ===============contact part start=============== */
+#contact_part .main_contact .row .item ul li {
+	font-size: 14px !important;
+}
+#contact_part .sdc {
+	padding-left: 2px !important;
+}
+#contact_part{
+    overflow: hidden;
+}
+#contact_part .item .img{
+    padding-left: none;
+}
+#contact_part .item .img img {
+	padding-left: 4px;
+	padding-top: 4px;
+}
+/* ===============contact part end=============== */
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* =====================menu part common css================ */
+  #main_menu .navbar-toggler{
+    font-size: 30px;
+    color: white;
+    vertical-align: middle;
+    transition: all linear.9s;
+    }
+#main_menu .navbar-toggler:hover{
+       color: #e23e38;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    #main_menu .navbar-nav .nav-link {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    #main_menu .svg-inline--fa {
+        vertical-align: middle;
+    }
+    #main_menu .navbar-toggler-icon {  
+        height: 1.3em;
+    }
+#main_menu .collapsed{
+    color: white !important;
+    }
+ #main_menu ul li a::after {
+        height: 1px;
+    }
+    #main_menu ul li a:hover::after {
+        width: 50%;
+    }
+    #main_menu {
+        margin-top: 24px;
+    }
+    #main_menu .logo_bg img {
+        width: 90%;
+        margin-left: 35px;
+    }
+    #main_menu .logo_bg::after {
+        width: 244px;
+        height: 75px;
+        margin-left: 37px;
+    }
+  /* =====================menu part common css end================ */
+  /* =====================banner common cs start================ */
+  #banner_part .banner h2::after {
+	display: none;
+}
+  #banner_part .banner h2::before {
+	display: none;
+}
+  #banner_part .banner p::before {
+	display: none;
+}
+#banner_part .banner p{
+    width: 80%;
+}
+#banner_part .banner h1 {
+	font-size: 50px;
+	padding: 10px 0;
+}
+  #banner_part .banner p::after {
+	display: none;
+}
+  #banner_part .banner .bpc::before {
+display: none;
+}
+#banner_part .banner .spc::after {
+display: none;
+}
+  /* =====================banner common css end================ */
+  /* =====================About css start================ */
+  #about_part p{
+      text-align: justify;
+      font-size: 13px;
+  }
+  /* =====================About css end================ */
+  /* =====================partnership css start================ */
+#partnership button{
+    display: none;
+}
+#partnership span {
+	font-size: 30px;
+	position: absolute;
+	left: -7px;
+	top: 35%;
+}
+#partnership a {
+	font-size: 30px;
+	position: absolute;
+	right: -26px;
+	top: 35%;
+}
+  /* =====================partnership css end================ */
+  /* =====================team partcss start================ */
+  #team_part .header img {
+	padding-bottom: 40px;
+}
+  /* =====================team part css end================ */
+  /* =====================class part css start================ */
+  #classes .details ul li {
+	padding: 22px 0;
+}
+  /* ===================== class part css end================ */
+  /* ===================== contact part css start================ */
+  #contact_part .item .element p {
+	width: 103%;
+}
+  /* ===================== contact part css end================ */
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* ==============banner  part start============== */
+    #banner_part p::before {
+        left: -49%;
+    }
+    #banner_part p::after {
+        height: 286px;
+        right: -59%;
+    }
+    /* ==============banner  part end============== */
+    /* ==============about  part start============== */
+    #about_part p{
+        font-size: 16px;
+    }
+    /* ==============about  part end============== */
+    /* ==============team  part start============== */
+    #team_part .header img {
+        padding-bottom: 56px;
+    }
+    #team_part .row .item .text h2 {
+        font-size: 21px;
+    }
+    #team_part .row .item .text h3 {
+        font-size: 20px;
+    }
+    #team_part .row .item .text p {
+        font-size: 15px;
+    }
+    /* ==============team  part end============== */
+    /* ==============testimonial part start============== */
+    #testimonial p {
+       font-size: 17px;
+    }
+    /* ==============testimonial part end============== */
+    /* ==============membership part start============== */
+    #membership_part .item ul li{
+      font-size: 18px;
+    }
+    #membership_part .item .pricing {
+        font-size: 35px;
+    }
+    #membership_part .item .head {
+        font-size: 22px;
+    }
+    #membership_part .item ul .spc {
+        font-size: 22px;
+    }
+    /* ==============membership part end============== */
+    /* ==============class part end============== */
+    #classes .class_btn ul li button {
+        font-size: 17px;
+    }
+    /* ==============class part start============== */
+    /* ==============counter part start============== */
+    #counter_part .row .item p {
+       font-size: 18px;
+    }
+    /* ==============counter part end============== */
+    /* ==============countact part start============== */
+    #contact_part .main_contact .row .item ul li {
+        font-size: 11px !important;
+    }
+    /* ==============countact part end============== */
+    /* ==============partnership part start============== */
+    #partnership .slick-slide img {
+        width: 90%;
+    }
+    #partnership a {
+        font-size: 35px;
+        top: 33%;
+    }
+    #partnership span {
+        font-size: 35px;
+        top: 33%;
+    }
+    /* ==============partnership part end============== */
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+@media (min-width: 1400px){
+    /* ==================menu part start=============== */
+    #main_menu .logo_bg::after {
+        transform: translate(-45% , -50%) skewX(-40deg);
+        width: 200px;
+    }
+    #main_menu .logo_bg img {
+        padding-left: 20px;
+    }
+#main_menu ul {
+	text-align: center;
+    color: red !important;
+}
+#main_menu ul {
+	text-align: center !important;
+}
+#banner_part p::before {
+	height: 264px;
+	left: -21%;
+	top: 1%;
+	transform: translate(0% , -63%);
+}
+#banner_part p::after {
+	height: 264px;
+	right: -21%;
+	top: 1%;
+	transform: translate(0% , -63%);
+}
+#banner_part p::after {
+	height: 266px;
+	right: -29%;
+	top: 4%;
+	transform: translate(0% , -63%);
+}
+#banner_part .banner .spc::after {
+	transform: translate(-241% , 30%);
+}
+#banner_part .banner h2::after {
+	top: 47%;
+}
+/* ==================menu part end=============== */ 
+   
+}
